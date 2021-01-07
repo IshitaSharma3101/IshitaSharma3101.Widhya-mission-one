@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster&family=Londrina+Shadow&family=Milonga&family=Rancho&family=Righteous&family=Satisfy&display=swap');
+
+body {
+    margin: 0px;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+i {
+    margin: 0rem 1.5rem;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+:root {
+    --primary-color: #FB7185;
+    --dark-gray: #4B5563;
+    --light-pink: #FFF1F2;
+}
+
+
+/*************** container ***************/
+
+
+.container {
+    padding: 0rem 1rem;
+    max-width: 100%;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/*************** links ***************/
+
+
+.link {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin: 0rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.link-secondary:hover {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    transition-duration: 700ms;
+}
+
+.link-primary:hover {
+    border: 1px solid var(--primary-color);
+    background-color: white;
+    color: var(--primary-color);
+    transition-duration: 700ms;
+}
+
+
+/*************** lists ***************/
+
+
+.non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+/*************** nav ***************/
+
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    color: var(--dark-gray);
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+
+/*************** heading ***************/
+
+
+.hero {
+    padding: 0rem;
+}
+
+.hero .hero-img {
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding: 3rem 0rem;
+    color: var(--dark-gray);
+    font-size: 5rem;
+    font-family: 'Londrina Shadow', cursive;
+    letter-spacing: 5px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+/*************** section ***************/
+
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.lp {
+    background-color: var(--light-pink);
+}
+
+.lp p {
+    text-align: center;
+}
+
+
+/*************** footer ***************/
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+
+/*************** scroll bar ***************/
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/*************** additional ***************/
+
+
+.tech-head {
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    color: #374151;
+}
+
+.tech-font {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2.3rem;
+}
+
+.nav-pills a {
+    font-size: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.proj-btn {
+    margin-top: 3rem;
+    margin-bottom: 2rem
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
+}
+
+footer p {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 0rem;
+}
+
+footer ul {
+    margin-bottom: 2rem;
+}
+
+.split-left {
+    float: left;
+    padding: 0rem 8%
+}
+
+.right {
+    text-align: center;
+    font-family: 'Milonga', cursive;
+    color: rgb(212, 48, 76);
+    line-height: 2.5rem;
+    letter-spacing: 0.01rem;
+}
+
+.box {
+    padding-left: 50%;
+    margin-top: -1.5rem
+}
+
+header .tech-font {
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+}
+
+.link {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.15rem
+}
+
+.fa-col {
+    color: var(--dark-gray);
+}
+
+.centralise {
+    text-align: center;
+}
+
+.tech-font-proj {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2.3rem;
+}
+
+.img-proj {
+    max-width: 400px;
+    display: block;
+    width: 100%;
+    height: 85%;
+    margin: auto;
+    padding: 2px;
+    border: 2px solid var(--primary-color);
+}
+
+.tech-head-proj {
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    color: #374151;
+    padding-bottom: 1rem
+}
+
+.img-mq-proj {
+    padding-bottom: 8%
+}
+
+
+/*************** media queries ***************/
+
+
+@media screen and (max-width:1070px) {
+
+    .split-left {
+        float: none;
+        padding: 0% 0%;
+        padding-bottom: 8%
+    }
+
+    .box {
+        padding-left: 15%;
+        margin-top: 0rem;
+        width: 70%;
+    }
+
+    .lp-s {
+        background-color: var(--light-pink);
+    }
+
+    .wlp {
+        background-color: white;
+    }
+
+    header .tech-font {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    .navigation .nav-pills {
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: -1rem
+    }
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .navigation .nav-brand {
+        font-weight: bold;
+        font-family: 'Lobster', cursive;
+        font-size: 2.5rem;
+        text-align: center;
+        color: var(--dark-gray);
+        letter-spacing: 2px;
+        padding-bottom: 1rem
+    }
+
+    .navigation {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 2rem;
+        border-bottom-left-radius: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 1.7rem;
+    }
+
+    .box {
+        padding-left: 0%;
+        margin-top: 0rem;
+        width: 100%;
+    }
+
+    .nav-pills a {
+        font-size: 1.2rem;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .footer .link {
+        padding: 1rem 1rem;
+        margin: 0rem 1rem;
+    }
+}
+
+
+@media screen and (max-width:411px) {
+
+    nav .link {
+        text-decoration: none;
+        padding: 1rem 1rem;
+        margin: 0rem 0rem;
+    }
+
+    .footer .link {
+        padding: 1rem 1rem;
+        margin: 0rem 0rem;
+    }
+
+    .proj-btn .link {
+        text-decoration: none;
+        padding: 1rem 2rem;
+        margin: 0rem 0rem;
+    }
+}
+
+@media screen and (max-width: 412px) {
+
+    .navigation .nav-brand {
+        font-weight: bold;
+        font-family: 'Lobster', cursive;
+        font-size: 2.7rem;
+        text-align: center;
+        color: var(--dark-gray);
+        letter-spacing: 2px;
+        padding-bottom: 1rem;
+    }
+
+    nav .link {
+        text-decoration: none;
+        padding: 1rem 1rem;
+        margin: 0rem 0rem;
+    }
+
+    .tech-head {
+        font-family: 'Righteous', cursive;
+        font-size: 2.9rem;
+        letter-spacing: 4px;
+        color: #374151;
+    }
+
+    .footer .link {
+        padding: 1rem 0rem;
+        margin: 0rem 1rem;
+    }
+
+    .proj-btn .link {
+        text-decoration: none;
+        padding: 1rem 2rem;
+        margin: 0rem 0rem;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .container {
+        padding: 0rem 0rem;
+        max-width: 100%;
+    }
+
+    .right {
+        text-align: center;
+        font-family: 'Milonga', cursive;
+        color: rgb(212, 48, 76);
+        line-height: 2.1rem;
+        letter-spacing: 0.01rem;
+    }
+
+    .navigation .nav-pills {
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+        padding-bottom: 1rem;
+    }
+
+    .tech-head {
+        font-family: 'Righteous', cursive;
+        font-size: 2.8rem;
+        letter-spacing: 4px;
+        color: #374151;
+    }
+
+}
+
+
+@media screen and (max-width: 360px) {
+    .tech-head {
+        font-family: 'Righteous', cursive;
+        font-size: 3rem;
+        letter-spacing: 1px;
+        color: #374151;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    .hero .hero-heading {
+        text-align: center;
+        padding: 3rem 0rem;
+        color: var(--dark-gray);
+        font-size: 3.8rem;
+        font-family: 'Londrina Shadow', cursive;
+        letter-spacing: 5px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .tech-head-proj {
+        font-family: 'Righteous', cursive;
+        font-size: 2.5rem;
+        letter-spacing: 4px;
+        color: #374151;
+        padding-bottom: 1rem;
+    }
+
+    .proj-btn .link {
+        text-decoration: none;
+        padding: 1rem 1rem;
+        margin: 0rem 0rem;
+    }
+
+    i {
+        margin: 0rem 1rem;
+    }
+
+    .tech-head {
+        font-family: 'Righteous', cursive;
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+        color: #374151;
+    }
+
+    .navigation .nav-brand {
+        font-weight: bold;
+        font-family: 'Lobster', cursive;
+        font-size: 2rem;
+        text-align: center;
+        color: var(--dark-gray);
+        letter-spacing: 2px;
+        padding-bottom: 1rem;
+    }
+
+    .footer .link {
+        padding: 1rem 0rem;
+        margin: 0rem 0rem;
+    }
+}
